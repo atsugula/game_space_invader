@@ -248,8 +248,8 @@ namespace game
         private void makeBullet(string bulletTag)
         {
             PictureBox bullet = new PictureBox();
-            bullet.Image = Properties.Resources.bullet_2;
-            bullet.Size = new Size(5, 20);
+            bullet.Image = Properties.Resources.bala_1;
+            bullet.Size = new Size(24, 24);
             bullet.Tag = bulletTag;
             // Estara en la mitad de la imagen del jugador
             // Como si recreara un rayo o algo así
